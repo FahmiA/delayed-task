@@ -1,0 +1,24 @@
+{
+  "name": "delayed-task",
+  "version": "1.0.0",
+  "description": "Delays running a function, resetting the timeout each time the function is delayed",
+  "main": "build/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "test": "mocha build/test",
+    "test-watch": "mocha --watch build/test"
+  },
+  "keywords": [],
+  "author": "Fahmi A.",
+  "license" : "BSD-3-Clause",
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.29",
+    "@types/sinon": "^2.3.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  }
+}
